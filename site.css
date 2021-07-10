@@ -1,0 +1,73 @@
+html{
+    background: linear-gradient(blue, lightblue);
+    height: 100%;
+
+}
+
+figcaption{
+    font-family: 'Oswald', 'Encode Sans SC', sans-serif ;
+    font-size: 10px;
+    color: white;
+}
+
+body{
+    font-family: 'Oswald', 'Encode Sans SC', sans-serif ;
+    font-size: 20px ;
+    font-weight: 400;
+    color: white;
+}
+
+h1{
+    font-family: 'Lobster', 'Handlee', serif ;
+    font-size: 145px;
+    font-weight: 400;
+    color: white;
+
+}
+
+h2{
+    font-family: 'Encode Sans SC', 'Oswald', sans-serif ;
+    font-size: 64px;
+    font-weight: 300;
+    color: white;
+
+}
+
+h3{
+    font-family: 'Handlee', 'Lobster', Serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+
+}
+
+#navbar{
+    font-family: 'Oswald', 'Encode Sans SC', sans-serif ;
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+}
+
+a{
+    color: white;
+
+}
+
+a:hover{
+    color: #AAFAE1;
+}
+
+.picText{
+    width: 45%;
+}
+
+img{
+    width: 400px;
+    height: 350px;
+    text-align: center;
+    
+}
+
+#portrait{
+    float: left;
+}
