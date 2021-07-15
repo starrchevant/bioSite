@@ -1,6 +1,7 @@
 html{
     background: linear-gradient(blue, lightblue);
     height: 100%;
+    background-attachment: fixed;
 
 }
 
@@ -8,6 +9,10 @@ figcaption{
     font-family: 'Oswald', 'Encode Sans SC', sans-serif ;
     font-size: 10px;
     color: white;
+}
+
+figure{
+    text-align: center;
 }
 
 body{
@@ -22,14 +27,20 @@ h1{
     font-size: 145px;
     font-weight: 400;
     color: white;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
 
 }
 
 h2{
-    font-family: 'Encode Sans SC', 'Oswald', sans-serif ;
+    font-family: 'Handlee', 'Lobster', Serif ;
     font-size: 64px;
     font-weight: 300;
     color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
 
 }
 
@@ -58,16 +69,67 @@ a:hover{
 }
 
 .picText{
-    width: 45%;
+    
 }
 
 img{
-    width: 400px;
-    height: 350px;
+    width: 300px;
+    height: 200px;
     text-align: center;
     
 }
 
 #portrait{
     float: left;
+}
+
+#container{
+    
+
+}
+
+.gridContainer{
+    display: grid;
+}
+
+.topRight{
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.topLeft{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.centerRow{
+    grid-column: 1/4;
+    grid-row: 2;
+}
+
+.bottomCenter{
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.bottomLeft{
+    grid-row: 2;
+    grid-column: 1;
+}
+
+.topCenter{
+    grid-row: 1;
+    grid-column: 2;
+
+}
+
+.bottomRight{
+    grid-column: 3;
+    grid-row: 2;
+
+}
+
+.bottomText{
+    vertical-align: bottom;
+    margin-top: 200px;
 }
