@@ -5,6 +5,12 @@ html{
 
 }
 
+p{
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+
 figcaption{
     font-family: 'Oswald', 'Encode Sans SC', sans-serif ;
     font-size: 10px;
@@ -80,6 +86,13 @@ img{
 }
 
 #portrait{
+    width: 300px;
+    height: 400px;
+    text-align: center;
+
+}
+
+#portraitDiv{
     float: left;
 }
 
