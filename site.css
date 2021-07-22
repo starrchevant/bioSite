@@ -12,7 +12,7 @@ p{
 }
 
 figcaption{
-    font-family: 'Oswald', 'Encode Sans SC', sans-serif ;
+    font-family: 'Handlee', serif ;
     font-size: 10px;
     color: white;
 }
@@ -22,7 +22,7 @@ figure{
 }
 
 body{
-    font-family: 'Oswald', 'Encode Sans SC', sans-serif ;
+    font-family: 'Handlee', serif ;
     font-size: 20px ;
     font-weight: 400;
     color: white;
@@ -59,15 +59,18 @@ h3{
 }
 
 #navbar{
-    font-family: 'Oswald', 'Encode Sans SC', sans-serif ;
+    font-family: 'Lobster', 'Handlee', serif ;
     font-size: 25px;
     font-weight: 500;
-    color: white;
+    color: #AAFAE1;
     text-align: center;
+    word-spacing: 50px;
+    
 }
 
 a{
     color: white;
+
 
 }
 
